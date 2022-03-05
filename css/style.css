@@ -10,30 +10,53 @@
     padding-bottom: 50px;
 }
 
+.padding-0{
+    padding: 0 !important;
+}
 .bg-image {
     height: 100vh;
     width: 100%;
 }
 
-.container h1 {
-    font-family: 'Poppins';
-    font-weight: 500;
-    padding: 30px;
-    font-size: 50px;
+.logo {
+    width: 40%;
+    height: auto;
+    margin-top: -250px;
+    margin-bottom: -200px;
 }
 
-.container p strong {
-    color: blueviolet;
+
+
+.p1{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.2;
 }
 
-.container-fluid .button{
-border: 1px solid blueviolet;
-padding: 5px;
-background: blueviolet;
-color: white;
-border-radius: 5px;
+.p3{
+margin: 20px;
+font-size: 25px;
 }
 
+.highlight{
+    padding: 15px 50px;
+    background: #66336680;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.highlight p strong {
+    color: lightgreen;
+}
+
+.button{
+    margin-top: 50px;
+padding: 10px 50px;
+background: #663366;
+border-radius: 15px;
+font-size: 20px;
+font-weight: 400;
+}
 
 
 form {
