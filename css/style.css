@@ -26,14 +26,15 @@
     color: blueviolet;
 }
 
-.btn {
-    text-align: center;
-    margin-bottom: 20px;
-    background-color: blueviolet;
-    color: white;
-    margin: 20px;
-
+.container-fluid .button{
+border: 1px solid blueviolet;
+padding: 5px;
+background: blueviolet;
+color: white;
+border-radius: 5px;
 }
+
+
 
 form {
     background: #663366;
