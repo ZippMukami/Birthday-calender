@@ -80,3 +80,35 @@ input[type = text]{
 select{
     background: #e0d3e8;
 }
+
+.last-page{
+    text-align: center;
+    color: lightgreen;
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.balloon{
+    text-align: center;
+}
+
+.balloon img{
+    background: #663366;
+    width: 120px;
+}
+
+.others{
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.akan-names{
+    padding: 20px;
+    background: #663366;
+    text-align: center;
+    justify-content: center;
+}
+
