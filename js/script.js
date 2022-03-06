@@ -10,7 +10,8 @@ btn1.addEventListener("click", function(){
 });
 
 
-const form = document.querySelector("form");
+const form = document.forms["form1"];
+
 form.addEventListener("submit", function(e){
     e.preventDefault();
 });
