@@ -7,6 +7,7 @@
 }
 
 .landing-page {
+    display: block;
     padding-bottom: 50px;
 }
 
@@ -58,6 +59,9 @@ font-size: 20px;
 font-weight: 400;
 }
 
+#fill-form{
+    display: none;
+}
 
 form {
     background: #663366;
@@ -112,3 +116,6 @@ select{
     justify-content: center;
 }
 
+#results{
+    display: none;
+}
