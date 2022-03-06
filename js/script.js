@@ -6,5 +6,11 @@ let btn1 = document.querySelector('.button');
 
 btn1.addEventListener("click", function(){
     landing_page.style.display = "none";
-    fill_form.style.display = "block"
+    fill_form.style.display = "block";
+});
+
+
+const form = document.querySelector("form");
+form.addEventListener("submit", function(e){
+    e.preventDefault();
 });
