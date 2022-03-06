@@ -64,7 +64,18 @@ if(form["gender"].value == 1){
     name = akanMales[userDay];
 }
  
-console.log("Your Akan name is " + name + " and the day of the week you were born is " + birthday);
+
+fill_form.style.display = "none";
+results.style.display = "block";
+
+
+let userName = document.querySelector(".user-name");
+let bornDay = document.querySelector(".user-day");
+
+userName.innerHTML = name;
+bornDay.innerHTML = birthday;
+
+// console.log("Your Akan name is " + name + " and the day of the week you were born is " + birthday);
 
 
 

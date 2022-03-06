@@ -59,58 +59,71 @@
                                     <h4>Your Date of Birth</h4>
                                     <div class="col-md-12 mb-4">
 
-                                        <label for="month">Month:</label> <br>
-                                        <input type="text" name="month" id="month" autocomplete="off" placeholder="enter month in numbers"> <br> <br>
-                                        
-                                        <label for="days">Day:</label> <br>
-                                        <input type="text" name="days" id="days" autocomplete="off" placeholder="enter day in numbers"> <br> <br>
-                                        <select name="year" id="">
-                                            <option value="">Year</option>
-                                            <option value="1985">1985</option>
-                                            <option value="1986">1986</option>
-                                            <option value="1987">1987</option>
-                                            <option value="1988">1988</option>
-                                            <option value="1989">1989</option>
-                                            <option value="1990">1990</option>
-                                            <option value="1991">1991</option>
-                                            <option value="1992">1992</option>
-                                            <option value="1993">1993</option>
-                                            <option value="1994">1994</option>
-                                            <option value="1995">1995</option>
-                                            <option value="1996">1997</option>
-                                            <option value="1996">1998</option>
-                                            <option value="1996">1999</option>
-                                            <option value="1996">2000</option>
-                                            <option value="1996">2001</option>
-                                            <option value="1996">2002</option>
-                                            <option value="1996">2003</option>
-                                            <option value="1996">2004</option>
-                                            <option value="1996">2005</option>
-                                            <option value="1996">2006</option>
-                                            <option value="1996">2007</option>
-                                            <option value="1996">2008</option>
-                                            <option value="1996">2009</option>
-                                            <option value="1996">2010</option>
-                                            <option value="1996">2011</option>
-                                            <option value="1996">2012</option>
-                                            <option value="1996">2013</option>
-                                            <option value="1996">2014</option>
-                                            <option value="1996">2015</option>
-                                            <option value="1996">2016</option>
-                                            <option value="1996">2017</option>
-                                            <option value="1996">2018</option>
-                                            <option value="1996">2019</option>
-                                            <option value="1996">2020</option>
-                                            <option value="1996">2021</option>
-                                            <option value="1996">2022</option>
-                                        </select>
+                                        <div class="row">
+                                            <label for="month" class="col-md-2 col-form-label text-white">Month:</label>
+                                            <div class="col-md-10">
+                                                <input type="text" name="month" class="form-control" id="month"
+                                                    autocomplete="off" placeholder="enter month in numbers"> <br> <br>
+                                            </div>
+                                        </div>
+
+                                        <div class="row">
+                                            <label for="days" class="col-md-2 col-form-label text-white">Day:</label>
+                                            <div class="col-md-10">
+                                                <input type="text" name="days" class="form-control" id="days"
+                                                    autocomplete="off" placeholder="enter day in numbers"> <br> <br>
+                                            </div>
+                                        </div>
+
+                                        <div class="mwaka">
+                                            <select name="year" id="" class="form-control">
+                                                <option value="">Year</option>
+                                                <option value="1985">1985</option>
+                                                <option value="1986">1986</option>
+                                                <option value="1987">1987</option>
+                                                <option value="1988">1988</option>
+                                                <option value="1989">1989</option>
+                                                <option value="1990">1990</option>
+                                                <option value="1991">1991</option>
+                                                <option value="1992">1992</option>
+                                                <option value="1993">1993</option>
+                                                <option value="1994">1994</option>
+                                                <option value="1995">1995</option>
+                                                <option value="1996">1997</option>
+                                                <option value="1996">1998</option>
+                                                <option value="1996">1999</option>
+                                                <option value="1996">2000</option>
+                                                <option value="1996">2001</option>
+                                                <option value="1996">2002</option>
+                                                <option value="1996">2003</option>
+                                                <option value="1996">2004</option>
+                                                <option value="1996">2005</option>
+                                                <option value="1996">2006</option>
+                                                <option value="1996">2007</option>
+                                                <option value="1996">2008</option>
+                                                <option value="1996">2009</option>
+                                                <option value="1996">2010</option>
+                                                <option value="1996">2011</option>
+                                                <option value="1996">2012</option>
+                                                <option value="1996">2013</option>
+                                                <option value="1996">2014</option>
+                                                <option value="1996">2015</option>
+                                                <option value="1996">2016</option>
+                                                <option value="1996">2017</option>
+                                                <option value="1996">2018</option>
+                                                <option value="1996">2019</option>
+                                                <option value="1996">2020</option>
+                                                <option value="1996">2021</option>
+                                                <option value="1996">2022</option>
+                                            </select>
+                                        </div>
 
 
 
                                     </div>
                                     <div class="col-md-12 mb-4">
 
-                                        <select class="select" name="gender">
+                                        <select class="select form-control" name="gender">
                                             <option value="">Gender</option>
                                             <option value="1">Female</option>
                                             <option value="2">Male</option>
@@ -119,8 +132,10 @@
                                     </div>
                                 </div>
 
-                                <button type="submit" class="btn btn-success btn-lg mb-1">Submit</button>
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-success btn-lg mb-1">Submit</button>
 
+                                </div>
                             </form>
 
                         </div>
@@ -134,12 +149,16 @@
         <div class="row akan-names">
             <div class="last-page">
                 <p>Your Akan Name is:</p>
+                <h2 class="user-name"></h2>
+
+                <p>You were born on:</p>
+                <h4 class="user-day"></h4>
             </div>
             <div class="balloon">
                 <img src="./images/kitty.png" alt="">
             </div>
             <div class="others">
-                <p>Check out other Akan Names </p>
+                <p>More info on Akan Names </p>
 
             </div>
 
