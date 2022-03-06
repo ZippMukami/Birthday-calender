@@ -51,8 +51,20 @@ if(form["year"].value == ""){
 let userDate = new Date (form["year"].value, form["month"].value, form["days"].value);
 let userDay = userDate.getDay();
  
-const days = ["Sunday", "Monday", "Tuesday", "Thursday", "Friday", "Saturday"];
+const days = ["Sunday", "Monday", "Tuesday", "Wednesday","Thursday", "Friday", "Saturday"];
+const akanFemales = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
+const akanMales = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwa"];
 
+let name = "";
+let birthday = days[userDay];
+
+if(form["gender"].value == 1){
+    name = akanFemales[userDay];
+} else {
+    name = akanMales[userDay];
+}
+ 
+console.log("Your Akan name is " + name + " and the day of the week you were born is " + birthday);
 
 
 
