@@ -4,7 +4,7 @@ let results = document.getElementById('results');
 let btn1 = document.querySelector('.button');
 
 
-btn1.addEventListener("click", function(){
+btn1.addEventListener("click", function () {
     landing_page.style.display = "none";
     fill_form.style.display = "block";
 });
@@ -12,6 +12,16 @@ btn1.addEventListener("click", function(){
 
 const form = document.forms["form1"];
 
-form.addEventListener("submit", function(e){
+form.addEventListener("submit", function (e) {
     e.preventDefault();
+    if (form["gender"].value == "") {
+        alert("All fields are required");
+        return false
+    };
+
+
+
+
+
+
 });
