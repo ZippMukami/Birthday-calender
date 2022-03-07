@@ -48,7 +48,7 @@ if(form["year"].value == ""){
         return false;
     };
 
-let userDate = new Date (form["year"].value, form["month"].value, form["days"].value);
+let userDate = new Date (form["year"].value, form["month"].value-1, form["days"].value);
 let userDay = userDate.getDay();
  
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday","Thursday", "Friday", "Saturday"];
